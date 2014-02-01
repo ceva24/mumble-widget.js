@@ -31,6 +31,7 @@ To Do
 * Show users in the root channel.
 * Update list of channels dynamically as they are created/deleted.
 * Handle sub-channels recursively.
+* Truncate channel names if too long and add tooltip.
 
 Contribution
 ------------
