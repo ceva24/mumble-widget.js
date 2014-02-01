@@ -1,4 +1,38 @@
 mumble-widget-js
-================
+=============
 
-A port of my mumble-widget code to Javascript.
+A widget to display users and channels on a Mumble server.
+
+Introduction
+------------
+
+A small Javascript solution that displays the details of a Mumble server that supports the [channel viewer protocol](http://mumble.sourceforge.net/Channel_Viewer_Protocol).
+
+Developed primarily for three reasons:
+
+* *Limit intrusiveness* - doesn't display potentially sensitive information such as administration privileges, idle time and Operating System.
+* *Dynamic resizing* - other solutions are often within an iframe of pre-determined size. This means potentially unwanted space or a scrollbar.
+* *Full customisability* - the stylesheet can be freely modified.
+
+This version has benefits over the PHP solution in that it dynamically updates users/icons based on their status.
+
+Install
+-------
+
+1. Set the value of `url` in the ajax call to the url of your server's exposed JSONP feed.
+
+Example
+------------
+![alt text](http://www.ceva24.co.uk/mumble-widget/mumble-widget.png "mumble-widget example screenshot")
+
+To Do
+------------
+
+* Show users in the root channel.
+* Update list of channels dynamically as they are created/deleted.
+* Handle sub-channels recursively.
+
+Contribution
+------------
+
+Feel free to fork this project to include additional functionality as you desire.
