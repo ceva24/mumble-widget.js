@@ -1,4 +1,4 @@
-mumble-widget-js
+mumble-widget.js
 =============
 
 A widget to display users and channels on a Mumble server.
