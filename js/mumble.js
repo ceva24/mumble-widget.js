@@ -1,3 +1,5 @@
+$(function() { loadMumbleData(); });
+
 function loadMumbleData() {
     $.ajax({
         type: "GET",
