@@ -1,7 +1,7 @@
 mumble-widget.js
 =============
 
-This is a widget I wrote to display users and channels on a Mumble server I used to administrate.
+This is a widget I wrote to display users and channels on a Mumble server I used to administer.
 
 Introduction
 ------------
