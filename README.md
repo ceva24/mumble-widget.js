@@ -1,7 +1,7 @@
 mumble-widget.js
 =============
 
-A widget to display users and channels on a Mumble server.
+This is a widget I wrote to display users and channels on a Mumble server I used to administrate.
 
 Introduction
 ------------
@@ -14,7 +14,7 @@ Developed primarily for three reasons:
 * *Dynamic resizing* - other solutions are often within an iframe of pre-determined size. This means potentially unwanted space or a scrollbar.
 * *Full customisability* - the stylesheet can be freely modified.
 
-This version has benefits over the PHP solution in that it dynamically updates users/icons based on their status.
+This version has benefits over [the previous PHP solution](https://github.com/ceva24/mumble-widget) in that it dynamically updates users/icons based on their status.
 
 Install
 -------
@@ -25,15 +25,3 @@ Example
 ------------
 ![mumble widget](https://www.ceva24.dev/public/images/mumble-widget.png "mumble-widget example screenshot")
 
-To Do
-------------
-
-* Show users in the root channel.
-* Update list of channels dynamically as they are created/deleted.
-* Handle sub-channels recursively.
-* Truncate channel names if too long and add tooltip.
-
-Contribution
-------------
-
-Feel free to fork this project to include additional functionality as you desire.
