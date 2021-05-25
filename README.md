@@ -23,5 +23,5 @@ Install
 
 Example
 ------------
-![mumble widget](https://www.ceva24.dev/public/images/mumble-widget.png "mumble-widget example screenshot")
+![mumble widget](https://raw.githubusercontent.com/ceva24/mumble-widget.js/main/docs/mumble-widget.png "mumble-widget example screenshot")
 
